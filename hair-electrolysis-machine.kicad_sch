@@ -125,7 +125,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1736d93f-23d1-4459-a0c9-ff9ee8a8248a")
 		(property "Reference" "H5"
@@ -201,7 +201,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fbefa06-db89-4e00-9998-453846dc25ac")
 		(property "Reference" "H2"
@@ -277,7 +277,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1ff4e480-b53a-4a8d-8e63-667a3f6dc7d2")
 		(property "Reference" "H3"
@@ -353,7 +353,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd400179-33b7-4f0f-9db9-da8b987d34db")
 		(property "Reference" "H4"
@@ -429,7 +429,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ebce4240-7efc-4284-a1da-4d61e32a2ccd")
 		(property "Reference" "H1"
