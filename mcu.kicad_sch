@@ -6162,17 +6162,7 @@
 		)
 		(uuid "0786946d-f8c1-4236-9ec8-3394bc023bf8")
 	)
-	(text "Drive at 1kHz square; alternative phase"
-		(exclude_from_sim no)
-		(at 160.528 82.296 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3efdf762-ea86-45f6-aa71-67250078b77f")
-	)
-	(text "Foot pedal\ncan be used\nor on device\nbutton"
+	(text "Foot pedal\ncan be used\nor on-device\nbutton"
 		(exclude_from_sim no)
 		(at 227.838 91.948 0)
 		(effects
@@ -6182,21 +6172,17 @@
 		)
 		(uuid "580a61d4-3323-45b6-969b-06bed0545e3b")
 	)
-	(text "R for self-testing"
-		(exclude_from_sim no)
-		(at 248.412 70.104 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af167043-142a-46bb-b31e-2791d64535e4")
-	)
 	(junction
 		(at 176.53 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00ecc306-e42d-4163-bb92-0dae05cbabc1")
+	)
+	(junction
+		(at 240.03 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e7e12d1-98c4-4305-93e7-e268b34211ef")
 	)
 	(junction
 		(at 71.12 80.01)
@@ -6265,12 +6251,6 @@
 		(uuid "33c05f68-b028-493e-a914-dbcfccb877d3")
 	)
 	(junction
-		(at 240.03 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3834c7e8-308c-4771-8730-aca11170e3e3")
-	)
-	(junction
 		(at 39.37 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6305,6 +6285,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "799abb50-d098-4864-9b7a-7f2fab573bb5")
+	)
+	(junction
+		(at 240.03 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83252da8-bc87-409e-9c81-86de9fd6e382")
 	)
 	(junction
 		(at 261.62 116.84)
@@ -6439,20 +6425,8 @@
 		(uuid "f9661f1f-c190-40b4-9255-df7707692ba5")
 	)
 	(no_connect
-		(at 250.19 35.56)
-		(uuid "0b5c187e-4834-4fcf-9f66-dd38674a5cb0")
-	)
-	(no_connect
-		(at 250.19 40.64)
-		(uuid "1cb370a4-856d-4714-9721-d7bf0f2e8098")
-	)
-	(no_connect
 		(at 195.58 96.52)
 		(uuid "78b4d1d6-9f44-4859-ab64-a2059e0eeeaa")
-	)
-	(no_connect
-		(at 250.19 58.42)
-		(uuid "91999f5f-a55f-489b-b976-798e12df3bc0")
 	)
 	(no_connect
 		(at 195.58 101.6)
@@ -6730,16 +6704,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 38.1) (xy 247.65 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b007388-018f-44ef-a951-484f138141e4")
-	)
-	(wire
-		(pts
 			(xy 189.23 147.32) (xy 189.23 152.4)
 		)
 		(stroke
@@ -6817,6 +6781,16 @@
 			(type default)
 		)
 		(uuid "28d565d3-c6f0-48b4-b0cc-e3c09732d185")
+	)
+	(wire
+		(pts
+			(xy 248.92 35.56) (xy 248.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bf9001-154c-4059-a543-ae0629d96c41")
 	)
 	(wire
 		(pts
@@ -6947,16 +6921,6 @@
 			(type default)
 		)
 		(uuid "3848a461-4046-4158-a27d-d032a2dd6b57")
-	)
-	(wire
-		(pts
-			(xy 240.03 38.1) (xy 240.03 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "397c2cd2-fc8a-4d8e-88ec-bc4fae272684")
 	)
 	(wire
 		(pts
@@ -7640,6 +7604,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 38.1) (xy 247.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939cf03e-a0b7-4f60-ac07-17045bbe5310")
+	)
+	(wire
+		(pts
 			(xy 167.64 60.96) (xy 167.64 63.5)
 		)
 		(stroke
@@ -7670,6 +7644,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 53.34) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9704259a-fc6f-4f3b-afc0-9cf72b11e84b")
+	)
+	(wire
+		(pts
 			(xy 149.86 191.77) (xy 160.02 191.77)
 		)
 		(stroke
@@ -7677,6 +7661,16 @@
 			(type default)
 		)
 		(uuid "97a90397-49e7-4449-88ae-0c97e6df2784")
+	)
+	(wire
+		(pts
+			(xy 240.03 38.1) (xy 240.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ddafa9-d4e5-4b62-9d94-3b83f6d8cea1")
 	)
 	(wire
 		(pts
@@ -7760,7 +7754,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 63.5) (xy 242.57 63.5)
+			(xy 240.03 63.5) (xy 250.19 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7897,6 +7891,16 @@
 			(type default)
 		)
 		(uuid "b0b150c1-0c2f-44dc-b246-9c8497308624")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 250.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b259370d-c328-45e2-a70e-776727cd6420")
 	)
 	(wire
 		(pts
@@ -8147,6 +8151,16 @@
 			(type default)
 		)
 		(uuid "d1a208eb-d851-4dde-b7b3-d008cc90ee6f")
+	)
+	(wire
+		(pts
+			(xy 248.92 40.64) (xy 250.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d09b99-b1ca-4371-9b54-7d4b9606dff7")
 	)
 	(wire
 		(pts
@@ -8420,6 +8434,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 35.56) (xy 248.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bd4493-2816-4b6b-ab6b-b3df7e378035")
+	)
+	(wire
+		(pts
 			(xy 220.98 99.06) (xy 217.17 99.06)
 		)
 		(stroke
@@ -8497,6 +8521,16 @@
 			(type default)
 		)
 		(uuid "fc70fa43-5d0e-46d7-99f6-dd0fccf5781d")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff584cd3-b959-4827-afbe-76df3119680e")
 	)
 	(label "DAC_OUT1"
 		(at 114.3 101.6 180)
@@ -15022,6 +15056,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 240.03 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92d26bde-e8a5-492d-8acf-de09b70e76d6")
+		(property "Reference" "R19"
+			(at 237.49 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R"
+			(at 240.03 49.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 241.808 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23179"
+			(at 240.03 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5244fa13-6755-4fbb-9a7a-6d2227cb4fba")
+		)
+		(pin "2"
+			(uuid "5b3f7d9a-bdd9-4e3f-bce1-f5f6e8a10e73")
+		)
+		(instances
+			(project "hair-electrolysis-machine"
+				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 224.79 127 0)
 		(unit 1)
@@ -15211,96 +15335,6 @@
 			(project "hair-electrolysis-machine"
 				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 246.38 63.5 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95b68f02-cb2b-411c-a689-6564b472cf85")
-		(property "Reference" "R19"
-			(at 246.38 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 246.126 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 246.38 61.722 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 246.38 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23179"
-			(at 246.38 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17e5e24b-81ed-48b7-a6bd-ddb18e6990e7")
-		)
-		(pin "2"
-			(uuid "907810a5-0eff-414c-a0a3-6d993640262e")
-		)
-		(instances
-			(project "hair-electrolysis-machine"
-				(path "/724ce5ca-e5bf-4553-b755-84be7690a548/cdc4525c-ab23-4870-9f65-db2094403a54"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18785,7 +18819,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 224.155 146.05 0)
+			(at 226.568 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
