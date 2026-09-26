@@ -1,8 +1,8 @@
 [package]
-edition = "2024"
+edition = "2026"
 name = "hair-electrolysis-machine-stm32g0b1"
-version = "0.1.0"
-authors = ["n3tcat <webmaster@scd31.com>"]
+version = "0.1.1"
+authors = ["zoemaestra" zoe@imzoe.me, "n3tcat <webmaster@scd31.com>"]
 license = "MIT"
 
 [dependencies]

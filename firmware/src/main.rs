@@ -6,7 +6,6 @@ mod button;
 mod buzzer;
 mod charge_pump;
 mod current_dac;
-#[path = "../../src/gui/mod.rs"]
 mod gui;
 mod meter;
 mod output_handler;
