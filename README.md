@@ -2,7 +2,7 @@
 
 ### DIY electrolysis carries risk of permanent scarring if done improperly. If something goes wrong, only you are responsible.
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8bc5b822-48f8-4606-83c2-8a905726606c" />
+<img width="600" height="600" alt="electro2" src="https://github.com/user-attachments/assets/42c34208-fc57-4977-ba4c-7348e6947860" />
 
 ---
 
